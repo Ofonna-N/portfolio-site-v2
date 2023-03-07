@@ -1,13 +1,13 @@
 import "./App.scss";
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, HashRouter, RouterProvider } from "react-router-dom";
 import Hero from "./components/hero/hero";
 
 import Projects from "./routes/projects/projects";
 import Skills from "./routes/skills/skills";
 import Career from "./routes/career/career";
 
-const route = createBrowserRouter([
+const route = createHashRouter([
   {
     path: "/",
     element: <Hero />,
@@ -28,7 +28,11 @@ const route = createBrowserRouter([
   },
 ]);
 function App() {
-  return <RouterProvider router={route} />;
+  return (
+    <RouterProvider router={route} />
+    // <HashRouter>
+    // </HashRouter>
+  );
 }
 
 export default App;
