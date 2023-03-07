@@ -1,0 +1,79 @@
+@use "/src/sass/abstracts/abstractsEntry" as e;
+
+.hero {
+  background-color: e.$secondary-color;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  &__main {
+    // margin-top: 1rem;
+    max-width: 120rem;
+    padding: 1rem;
+    padding-inline: 2rem;
+    margin-inline: auto;
+  }
+
+  &__title {
+    display: none;
+    font-size: 6rem;
+    text-align: center;
+  }
+
+  &__tagline {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  //   &__btns {
+  //     display: flex;
+  //     justify-content: center;
+  //     gap: 1rem;
+  //     margin-bottom: 3rem;
+  //     position: relative;
+  //     &--routers {
+  //       display: none;
+  //     }
+
+  //     &--routers.active {
+  //       display: flex;
+  //       animation: route 0.5s ease;
+  //     }
+
+  //     .btn {
+  //       min-width: 10rem;
+  //     }
+  //   }
+}
+@media (max-width: 500px) {
+  .hero {
+    &__main {
+      margin-top: 2rem;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .hero {
+    &__title {
+      display: block;
+      margin-bottom: 2rem;
+    }
+
+    &__main {
+      margin-top: 20rem;
+      padding: 3rem;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+    &__title {
+      font-size: 7rem;
+      margin-bottom: 2rem;
+    }
+
+    &__tagline {
+      margin-bottom: 5rem;
+    }
+  }
+}

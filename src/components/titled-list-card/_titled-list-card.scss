@@ -1,0 +1,35 @@
+@use "/src/sass/abstracts/abstractsEntry" as e;
+
+.title-list-card {
+  margin-bottom: 2rem;
+  animation: container 0.3s ease-in-out;
+  &__title {
+    // text-align: center;
+    white-space: pre-wrap;
+    word-wrap: normal;
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding-bottom: 0.1rem;
+  }
+  &__line {
+    border: 1px solid white;
+    margin-bottom: 0.3rem;
+  }
+  &__list {
+    font-size: 1.6rem;
+  }
+  &__list-item {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .title-list-card {
+    &__title {
+      font-size: 3rem;
+    }
+    &__list {
+      font-size: 1.8rem;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@use "/src/sass/abstracts/abstractsEntry" as e;
+.game-dev-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-inline: auto;
+  text-align: center;
+  animation: container 0.3s ease-in-out;
+  // overflow-x: auto;
+}

@@ -1,0 +1,112 @@
+@use "/src/sass/abstracts/abstractsEntry" as e;
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: e.$primary-color;
+  padding: 1.5rem;
+  gap: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  &__title {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  &__logo-container {
+    // display: none;
+    width: 50rem;
+  }
+  &__logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid e.$secondary-color;
+    position: relative;
+    right: -50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    // display: none;
+  }
+
+  &__social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+    width: 100%;
+  }
+  &__social-link {
+    cursor: pointer;
+    a {
+      color: e.$font-color;
+      display: inline-block;
+      width: 2rem;
+      height: 2rem;
+      // background-color: aquamarine;
+      position: relative;
+
+      .svg-inline--fa {
+        // color: red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2rem;
+      }
+      .svg-inline--fa:hover {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-bar {
+    flex-direction: row;
+    align-content: space-between;
+    // background-color: e.$secondary-color;
+    &__logo-container {
+      display: block;
+      width: 30rem;
+      position: relative;
+    }
+
+    // &__logo {
+    //   border-color: e.$primary-color;
+    // }
+
+    &__title {
+      // flex-grow: 2;
+      width: 100%;
+    }
+
+    &__social-links {
+      width: 30rem;
+    }
+  }
+}
+@media (min-width: 1280px) {
+  .nav-bar {
+    flex-direction: row;
+    // background-color: red;
+    align-content: space-between;
+    &__logo-container {
+      display: block;
+      width: 50rem;
+    }
+    &__title {
+      flex-grow: 2;
+      width: 100%;
+      text-align: center;
+    }
+
+    &__social-links {
+      width: 50rem;
+    }
+  }
+}

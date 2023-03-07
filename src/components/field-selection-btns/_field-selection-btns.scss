@@ -1,0 +1,5 @@
+@use "/src/sass/abstracts/abstractsEntry" as e;
+
+.field-selection-btns {
+  @extend .selection-btns;
+}

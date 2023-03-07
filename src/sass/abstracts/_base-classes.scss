@@ -1,0 +1,23 @@
+.selection-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  position: relative;
+  padding-inline: 1rem;
+  .btn {
+    min-width: 10rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .selection-btns {
+    padding: 0;
+  }
+}
+@media (min-width: 768px) {
+  .selection-btns {
+    flex-direction: row;
+  }
+}
