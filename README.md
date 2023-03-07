@@ -1,3 +1,4 @@
 # Portfolio Site
 
-View [Portfolio](https://ofonna-n.github.io/portfolio-site/)
+
+View <strong><a href="https://ofonna-n.github.io/portfolio-site/" target="_blank">Porftolio</a></strong>
