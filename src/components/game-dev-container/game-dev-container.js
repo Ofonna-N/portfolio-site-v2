@@ -1,8 +1,8 @@
 import "./_game-dev-container.scss";
-import crowdStepVid from "../../static/videos/crowd-step.mp4";
-import storeRush from "../../static/videos/store-rush.mp4";
-import manBashVid from "../../static/videos/man-bash.mp4";
-import knightsDuel from "../../static/videos/knights-duel.mp4";
+import crowdStepVid from "../../static/videos/crowd-step-1.m4v";
+import storeRush from "../../static/videos/Store-Rush-1.mp4";
+import manBashVid from "../../static/videos/Man-Bash-1.m4v";
+import knightsDuel from "../../static/videos/Knights-Duel-1.m4v";
 import ProjectCardGd from "../project-cards/game-dev/project-card-gd";
 
 const gameDevContent = [
