@@ -1,0 +1,7 @@
+@use "/src/sass/abstracts/abstractsEntry" as e;
+.web-dev-container {
+  animation: container 0.3s ease-in;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

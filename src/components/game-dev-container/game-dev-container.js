@@ -1,9 +1,12 @@
 import "./_game-dev-container.scss";
+import ProjectCardGd from "../project-cards/game-dev/project-card-gd";
 import crowdStepVid from "../../static/videos/crowd-step-1.m4v";
 import storeRush from "../../static/videos/Store-Rush-1.mp4";
 import manBashVid from "../../static/videos/Man-Bash-1.m4v";
 import knightsDuel from "../../static/videos/Knights-Duel-1.m4v";
-import ProjectCardGd from "../project-cards/game-dev/project-card-gd";
+import guardRun from "../../static/videos/guard run.m4v";
+import fidgetPopSweeper from "../../static/videos/fidgePopSweeper.m4v";
+import hammerMaster from "../../static/videos/hammer-master.m4v";
 
 const gameDevContent = [
   {
@@ -36,8 +39,7 @@ const gameDevContent = [
     video_src: manBashVid,
     google_link:
       "https://play.google.com/store/apps/details?id=com.SmallyGames.ManBash3D",
-    git_link:
-      "https://play.google.com/store/apps/details?id=com.SmallyGames.ManBash3D",
+    git_link: "",
     isTablet: false,
   },
   {
@@ -49,6 +51,39 @@ const gameDevContent = [
     google_link:
       "https://play.google.com/store/apps/details?id=com.SmallyGames.SwipeDuel",
     git_link: "https://github.com/Ofonna-N/Knight-Duel",
+    isTablet: false,
+  },
+  {
+    icon: "https://play-lh.googleusercontent.com/7EL4betX65vQdj6R5Lsgmx1qxBdUynsBtNukDE375O-IxyoipTLtHAGsr5x8psX9TQ=s48-rw",
+    title: "Guard Run",
+    description:
+      "Run Guide Swerve Player across level and push obstacles away to protect your ball from getting popped. The game is easy to learn and fun to play.just swerve and hit!",
+    video_src: guardRun,
+    google_link:
+      "https://play.google.com/store/apps/details?id=com.SmallyGames.GuardRun",
+    git_link: "",
+    isTablet: false,
+  },
+  {
+    icon: "https://play-lh.googleusercontent.com/xTbxh3cIE-Wivr9l8s3sI4GUWPa7ADcPThrAKGp4JVQaielMa7G5qirvi_ws7dN7VX4=s48-rw",
+    title: "Fidget Pop Sweeper",
+    description:
+      "This game is a combination of the mine sweeper classic with the satisfying feeling of playing with fidget pop toys. this board game will have you relaxed, tensed and having fun all at once. fidget pop toys are amazing and so is mine sweeper. Enjoy the best of both worlds.",
+    video_src: fidgetPopSweeper,
+    google_link:
+      "https://play.google.com/store/apps/details?id=com.SmallyGames.FidgetPopSweeper",
+    git_link: "",
+    isTablet: false,
+  },
+  {
+    icon: "https://play-lh.googleusercontent.com/LR1QdBPDwlMLQ9tmsL_sm3mRtoo9QnWPwg1vUJTr1FAn4yQYoH3YK5QE3OhAVwJrZQ=s48-rw",
+    title: "Hammer Master 3D",
+    description:
+      "Swerve hammer across level to reach the nails with the smallest numbers, ensure your hammer has a higher number than the nail you're trying to hit, each hit deducts a number from the nail and your hammer, so you have to se smart, you also have pick ups along the way to increase your hits and chances of winnning. the game was made to create a satisfying feel of banging nails into the ground.",
+    video_src: hammerMaster,
+    google_link:
+      "https://play.google.com/store/apps/details?id=com.SmallyGames.HammerMaster3D",
+    git_link: "",
     isTablet: false,
   },
 ];

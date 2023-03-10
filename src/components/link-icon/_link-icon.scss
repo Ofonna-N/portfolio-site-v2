@@ -1,3 +1,4 @@
+@use "/src/sass/abstracts/abstractsEntry" as e;
 .link-icon {
   cursor: pointer;
   display: flex;
@@ -10,6 +11,14 @@
   &--btn {
     border: 2px solid white;
     padding: 2px 10px;
+  }
+
+  &--accent {
+    color: e.$accent-color;
+    .svg-inline--fa {
+      padding-top: 2px;
+      fill: e.$accent-color;
+    }
   }
 
   //   a {

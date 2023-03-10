@@ -51,18 +51,22 @@ function ProjectCardGd({
         <p>{description}</p>
       </div>
       <div className="project-card-gd__btns">
-        <LinkIcon
-          text={"Play"}
-          icon={faGooglePlay}
-          modifiers={"link-icon--btn"}
-          url={google_link}
-        />
-        <LinkIcon
-          text={"Git"}
-          icon={faGithub}
-          modifiers={"link-icon--btn"}
-          url={git_link}
-        />
+        {google_link && (
+          <LinkIcon
+            text={"Play"}
+            icon={faGooglePlay}
+            modifiers={"link-icon--btn"}
+            url={google_link}
+          />
+        )}
+        {git_link && (
+          <LinkIcon
+            text={"Git"}
+            icon={faGithub}
+            modifiers={"link-icon--btn"}
+            url={git_link}
+          />
+        )}
       </div>
     </div>
   );

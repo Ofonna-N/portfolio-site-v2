@@ -2,6 +2,7 @@ import "./_projects.scss";
 import { useState } from "react";
 import Button from "../../components/Button/button";
 import GameDevContainer from "../../components/game-dev-container/game-dev-container";
+import WebDevContainer from "../../components/web-dev-container/web-dev-container";
 
 function Projects() {
   const [gameDev, webDev] = ["gameDev", "webDev"];
@@ -30,7 +31,7 @@ function Projects() {
 
       <div className="projects__showcase">
         {option === gameDev && <GameDevContainer />}
-        {option === webDev && "Coming soon..."}
+        {option === webDev && <WebDevContainer />}
       </div>
     </div>
   );
