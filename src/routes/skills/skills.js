@@ -5,7 +5,15 @@ function Skills() {
     <div>
       <TitleListCard
         title={"Programming languages"}
-        list={["C#", "JavaScript", "HTML", "CSS", "SASS"]}
+        list={[
+          "C#",
+          "JavaScript",
+          "TypeScript",
+          "HTML",
+          "CSS",
+          "SASS",
+          "Tailwind CSS",
+        ]}
       />
       <TitleListCard
         title={"Frameworks & Engines"}
