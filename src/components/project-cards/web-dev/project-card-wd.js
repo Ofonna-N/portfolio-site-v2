@@ -6,6 +6,7 @@ function ProjectCardWd({
   title,
   thumbnail,
   description,
+  techStack,
   demoLink,
   githubLink,
 }) {
@@ -19,6 +20,11 @@ function ProjectCardWd({
         <img src={thumbnail} alt="" />
       </div>
       <div className="project-card-wd__description">{description}</div>
+      <div className="project-card-wd__tech-stack">
+        {techStack.map((tech) => (
+          <span key={tech}>{tech}</span>
+        ))}
+      </div>
       <div className="project-card-wd__btns">
         <LinkIcon
           text={"View Demo"}

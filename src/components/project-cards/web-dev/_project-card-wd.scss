@@ -25,6 +25,30 @@
     margin-bottom: 1.5rem;
   }
 
+  &__tech-stack {
+    span {
+      display: inline-block;
+      margin-right: 1.5rem;
+      background-color: #051b11;
+      color: #48a37c;
+      border-radius: 3px;
+      padding: 2px 10px;
+      margin-bottom: 1.5rem;
+      font-size: 1.5rem;
+      min-width: 10rem;
+
+      &:hover {
+        background-color: #02140c;
+        color: #25db8c;
+        user-select: none;
+      }
+    }
+
+    @media (max-width: 450px) {
+      text-align: center;
+    }
+  }
+
   &__btns {
     display: flex;
     gap: 2rem;
