@@ -11,11 +11,11 @@ function Hero() {
       <div className="hero__main">
         <h1 className="hero__title">Ofonna Michael Nweze</h1>
         <p className="hero__tagline">
-          I'm a self motivated Aspiring Front End Developer with experience in
-          building games with c# and Unity. My main purpose in life is to make a
-          positive impact that puts smiles on faces of people around the globe.
-          I believe creating software is a superpower that can be attained
-          through hard work and an insatiable appetite for creativity.
+          I'm a self motivated Front End Developer with experience in building
+          games with c# and Unity. My main purpose in life is to make a positive
+          impact that puts smiles on faces of people around the globe. I believe
+          creating software is a superpower that can be attained through hard
+          work and an insatiable appetite for creativity.
         </p>
         <FieldOptionsBtns />
         <Outlet />
