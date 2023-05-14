@@ -1,5 +1,6 @@
 import "./_web-dev-container.scss";
 import netflixThumbnail from "../../static/images/netflix-clone.jpg";
+import bagsnShoesThumbnail from "../../static/images/bags-n-shoes.jpg";
 import ProjectCardWd from "../project-cards/web-dev/project-card-wd";
 
 const webDevPortfolio = [
@@ -21,7 +22,7 @@ const webDevPortfolio = [
   },
   {
     title: "bags-n-shoes",
-    thumbnail: netflixThumbnail,
+    thumbnail: bagsnShoesThumbnail,
     description:
       "An ecommerce website built with Next.js, TailwindCSS, React Redux, Firebase Auth, and Strapi CMS. With Next.js, I achieved fast server-side rendering and optimized performance. The sleek UI, designed with Tailwind CSS, ensures a visually appealing and responsive experience. User authentication is handled securely using Firebase Auth. Strapi CMS enables easy management of product listings and content updates. Discover a seamless blend of cutting-edge technologies for a modern ecommerce experience.",
     techStack: [
