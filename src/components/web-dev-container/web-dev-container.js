@@ -19,6 +19,23 @@ const webDevPortfolio = [
     demoLink: "https://netflix-clone-780a5.web.app",
     gitHubLink: "https://github.com/Ofonna-N/netflix-clone",
   },
+  {
+    title: "bags-n-shoes",
+    thumbnail: netflixThumbnail,
+    description:
+      "An ecommerce website built with Next.js, TailwindCSS, React Redux, Firebase Auth, and Strapi CMS. With Next.js, I achieved fast server-side rendering and optimized performance. The sleek UI, designed with Tailwind CSS, ensures a visually appealing and responsive experience. User authentication is handled securely using Firebase Auth. Strapi CMS enables easy management of product listings and content updates. Discover a seamless blend of cutting-edge technologies for a modern ecommerce experience.",
+    techStack: [
+      "React.js",
+      "Next.js",
+      "Tailwin CSS",
+      "Firebase Auth",
+      "React Router",
+      "React Redux",
+      "Strapi",
+    ],
+    demoLink: "https://bags-n-shoes-ecommerce-store.vercel.app",
+    gitHubLink: "https://github.com/Ofonna-N/bags-n-shoes--ecommerce-stroe-",
+  },
 ];
 
 const webDevPortfolioDisplay = () => {
