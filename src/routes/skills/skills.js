@@ -17,7 +17,7 @@ function Skills() {
       />
       <TitleListCard
         title={"Frameworks & Engines"}
-        list={["Unity3d", "React"]}
+        list={["Unity3d", "React", "Next.js"]}
       />
       <TitleListCard
         title={"Tools & Technologies"}
