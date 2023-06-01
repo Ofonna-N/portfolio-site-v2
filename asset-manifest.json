@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.2dfd1352.css",
-    "main.js": "/portfolio-site/static/js/main.6bdaff88.js",
+    "main.css": "/portfolio-site/static/css/main.ee3a59c3.css",
+    "main.js": "/portfolio-site/static/js/main.429b6928.js",
     "static/media/crowd-step-1.m4v": "/portfolio-site/static/media/crowd-step-1.c297d087028029f06cef.m4v",
     "static/media/guard run.m4v": "/portfolio-site/static/media/guard run.5f931f362daf84f29b4e.m4v",
     "static/media/Store-Rush-1.mp4": "/portfolio-site/static/media/Store-Rush-1.30296164b90c06200aa4.mp4",
@@ -9,16 +9,17 @@
     "static/media/hammer-master.m4v": "/portfolio-site/static/media/hammer-master.4799e869027d2c899d03.m4v",
     "static/media/fidgePopSweeper.m4v": "/portfolio-site/static/media/fidgePopSweeper.26a5b43ad5dde274701c.m4v",
     "static/media/Man-Bash-1.m4v": "/portfolio-site/static/media/Man-Bash-1.811db110a88a37923680.m4v",
+    "static/media/games-central.jpg": "/portfolio-site/static/media/games-central.0ad4b006af0feead8636.jpg",
     "static/media/bags-n-shoes.jpg": "/portfolio-site/static/media/bags-n-shoes.d2f46fab8c1228e38b88.jpg",
     "static/media/netflix-clone.jpg": "/portfolio-site/static/media/netflix-clone.75c9031b0bd305710cea.jpg",
     "static/media/phone.png": "/portfolio-site/static/media/phone.ab8a76fdffbab3302107.png",
     "static/media/tablet.png": "/portfolio-site/static/media/tablet.4e179b734b7ad1bebaf8.png",
     "index.html": "/portfolio-site/index.html",
-    "main.2dfd1352.css.map": "/portfolio-site/static/css/main.2dfd1352.css.map",
-    "main.6bdaff88.js.map": "/portfolio-site/static/js/main.6bdaff88.js.map"
+    "main.ee3a59c3.css.map": "/portfolio-site/static/css/main.ee3a59c3.css.map",
+    "main.429b6928.js.map": "/portfolio-site/static/js/main.429b6928.js.map"
   },
   "entrypoints": [
-    "static/css/main.2dfd1352.css",
-    "static/js/main.6bdaff88.js"
+    "static/css/main.ee3a59c3.css",
+    "static/js/main.429b6928.js"
   ]
 }
