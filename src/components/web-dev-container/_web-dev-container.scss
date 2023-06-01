@@ -2,7 +2,15 @@
 .web-dev-container {
   animation: container 0.3s ease-in;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  // justify-content: center;
+  // background-color: red;
   gap: 2rem;
+  flex-wrap: wrap;
+  // @media screen and (min-width:768px) {
+
+  // }
+
+  // @media screen and (min-width:768px) {
+
+  // }
 }

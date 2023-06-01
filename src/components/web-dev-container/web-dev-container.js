@@ -2,6 +2,7 @@ import "./_web-dev-container.scss";
 import netflixThumbnail from "../../static/images/netflix-clone.jpg";
 import bagsnShoesThumbnail from "../../static/images/bags-n-shoes.jpg";
 import ProjectCardWd from "../project-cards/web-dev/project-card-wd";
+import gamesCentralThumbnail from "../../static/images/games-central.jpg";
 
 const webDevPortfolio = [
   {
@@ -21,7 +22,7 @@ const webDevPortfolio = [
     gitHubLink: "https://github.com/Ofonna-N/netflix-clone",
   },
   {
-    title: "bags-n-shoes",
+    title: "Bags-N-Shoes",
     thumbnail: bagsnShoesThumbnail,
     description:
       "An ecommerce website built with Next.js, TailwindCSS, React Redux, Firebase Auth, and Strapi CMS. With Next.js, I achieved fast server-side rendering and optimized performance. The sleek UI, designed with Tailwind CSS, ensures a visually appealing and responsive experience. User authentication is handled securely using Firebase Auth. Strapi CMS enables easy management of product listings and content updates. Discover a seamless blend of cutting-edge technologies for a modern ecommerce experience.",
@@ -36,6 +37,22 @@ const webDevPortfolio = [
     ],
     demoLink: "https://bags-n-shoes-ecommerce-store.vercel.app",
     gitHubLink: "https://github.com/Ofonna-N/bags-n-shoes--ecommerce-stroe-",
+  },
+  {
+    title: "Games Central",
+    thumbnail: gamesCentralThumbnail,
+    description:
+      "a game hub for the latest trending and highly rated games, build with reactJS, tailwind CSS, zustand, all while utilizing the latest features of react 18",
+    techStack: [
+      "React.js",
+      "Tailwind CSS",
+      "React Router",
+      "Zustand",
+      "RTK",
+      "axios",
+    ],
+    demoLink: "https://games-central.vercel.app/",
+    gitHubLink: "https://github.com/Ofonna-N/games-central",
   },
 ];
 
